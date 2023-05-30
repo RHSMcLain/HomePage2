@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  border: 0px;
+  min-height: 2000px;
+}
+header {
+  text-align: center;
+  font-size: 1.6em;
+  color: white;
+  background-color: navy;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+}
+header div {
+  color: #6ab4ec;
+  font-size: 0.8rem;
+  font-family: pirulen, sans-serif;
+}
+.topBar {
+  background-color: navy;
+  font-size: 1rem;
+  padding: 2px 20px;
+  text-align: left;
+}
+.topBar a {
+  text-decoration: none;
+  color: #6ab4ec;
+  margin: 1px 5px;
+}
+.topBar a:hover {
+  color: #23f311;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.leftBar {
+  position: fixed;
+  left: 0px;
+  top: 66px;
+  bottom: 10px;
+  width: 120px;
+  background-color: transparent;
+  z-index: -1;
+  text-align: center;
+}
+.leftBar img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  border-radius: 25px;
+  box-shadow: 2px 2px lightblue;
+}
+.leftBar img + span {
+  font-size: 0.8rem;
+  font-style: italic;
+  position: relative;
+  top: -8px;
+}
+main {
+  margin-top: 85px;
+  margin-left: 125px;
+}
